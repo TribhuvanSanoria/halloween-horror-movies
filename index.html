@@ -1,6 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-        <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, in"f="style."
+<title>Horror List</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>Scary Games and Movies</h1>
+<p id="intro">My top 3 horror games and top 2 horror movies. Happy Halloween!!</p>
+
+<h2>Games</h2>
+<ul>
+  <li class="box">
+    <h3>Resident Evil 2 Remake</h3>
+    <img src="images/re2.jpg" alt="Resident Evil 2">
+    <p>Zombies in a police station. Mr. X follows you everywhere and its so stressful.</p>
+    <p>Scary: 4/5</p>
+  </li>
+  <li class="box">
+    <h3>Outlast</h3>
+    <img src="images/outlast.jpg" alt="Outlast">
+    <p>You only have a camera. You cant fight so you just hide in lockers.</p>
+    <p>Scary: 5/5</p>
+  </li>
+  <li class="box">
+    <h3>Amnesia The Dark Descent</h3>
+    <img src="images/amnesia.jpg" alt="Amnesia">
+    <p>Dark castle and you go insane if you look at the monster.</p>
+    <p>Scary: 4/5</p>
+  </li>
+</ul>
+
+<h2>Movies</h2>
+<ul>
+  <li class="box">
+    <h3>The Exorcist</h3>
+    <img src="images/exorcist.jpg" alt="The Exorcist">
+    <p>A girl gets possessed. Its from 1973 but still creepy.</p>
+    <p>Scary: 5/5</p>
+  </li>
+  <li class="box">
+    <h3>Hereditary</h3>
+    <img src="images/hereditary.jpg" alt="Hereditary">
+    <p>A family has a really bad time after a funeral. Dont watch alone.</p>
+    <p>Scary: 5/5</p>
+  </li>
+</ul>
+
+<button onclick="scareMe()">Click me if u dare</button>
+<br><br>
+<p style="text-align:center; color:gray;">made by me</p>
+
+<script>
+var count = 0;
+
+function scareMe() {
+  count = count + 1;
+  alert("BOO!!");
+  // changes the color every time you click
+  if (count % 2 == 1) {
+    document.body.style.backgroundColor = "darkred";
+  } else {
+    document.body.style.backgroundColor = "black";
+  }
+  document.getElementById("intro").innerHTML = "You clicked " + count + " times, brave";
+}
+</script>
+
+</body>
+</html>
