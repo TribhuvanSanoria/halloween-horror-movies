@@ -1,4 +1,8 @@
 # halloween-horror-movies
-so this website is for boba bash, as it is the month of spookieey thingss, i decided to make a website bout horror movies, basically my top 5!!
+so this website is for boba bash, as it is the month of spooky things:
 
-IT ALSO HAS 3 OF MY FAV HORROR GAMES (:
+***IT INCLUDES MY TOP HORROR GAMES AND MOVIES***
+
+-IT ALSO HAS A SMALL DESCRIPTION ABOUT THE MOVIES AND GAMES, WITH A RATING FROM 0-5!!
+
+-THIS WEBSITE ALSO HAS A SPECIAL FEATURE, BASICALLY A BUTTON AT THE END,CLICK IT FOR A NICE SUPRISE!!
