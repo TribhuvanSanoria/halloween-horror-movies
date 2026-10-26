@@ -2,7 +2,8 @@
 
 So this is basically a website about top 5 horror games and movies in my opinion, that you will enjoy a lot, it includes a small description about them and a rating according to me.
 
-screenshot.jpg
+![Website Screenshot](screenshot.jpg)
+
 
 *WHAT IT IS*
 
